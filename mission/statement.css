@@ -1,0 +1,49 @@
+h1 {
+    letter-spacing: 0.07em;
+    text-align: center;
+}
+
+h4 {
+    color: #319ce3;
+    letter-spacing: 0.11em;
+    text-align: center;
+    margin: 0;
+    font-size: small;
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+
+#content {
+    margin: 0 auto;
+    width: 50%;
+    line-height: 1.5em;
+}
+
+p {
+    margin: 0 auto;
+    text-align: left;
+    width: 50%;
+}
+
+#list {
+    margin: 0 auto;
+    width: 50%;
+}
+
+img {
+    width: 15%;
+    display: block;
+    margin: 50px auto;
+}
+
+li {
+    margin: 10px 0;
+}
+
+#intro {
+    margin-top: 15px;
+}
