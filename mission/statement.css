@@ -3,7 +3,7 @@ h1 {
     text-align: center;
 }
 
-h4 {
+h2 {
     color: #319ce3;
     letter-spacing: 0.11em;
     text-align: center;
@@ -21,6 +21,7 @@ hr {
     margin: 0 auto;
     width: 50%;
     line-height: 1.5em;
+    border: 2px solid #aab4ba;
 }
 
 p {
