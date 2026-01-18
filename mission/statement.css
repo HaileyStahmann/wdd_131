@@ -48,3 +48,17 @@ li {
 #intro {
     margin-top: 15px;
 }
+
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+body.dark #logo {
+    filter: brightness(0) invert(1);
+}
+
+body.light {
+    background-color: white;
+    color: black;
+}
