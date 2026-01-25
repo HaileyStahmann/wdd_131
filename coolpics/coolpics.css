@@ -28,14 +28,7 @@ h2 {
     padding-bottom: 1rem;
 }
 
-img {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border-color: 3px solid #ffffff;
-}
-
-.gallery img {
+.images img {
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -44,7 +37,7 @@ img {
     display: block;
 }
 
-.gallery {
+.images {
     display: grid;
     grid-template-columns: 1fr;
     column-gap: 4rem;
@@ -94,7 +87,7 @@ footer {
 }
 
 @media (min-width: 700px) {
-    .gallery {
+    .images {
         grid-template-columns: repeat(2, auto);
     }
 
@@ -102,7 +95,7 @@ footer {
 }
 
 @media (min-width: 1000px) {
-    .gallery {
+    .images {
         grid-template-columns: repeat(3, auto);
     }
 
