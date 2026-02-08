@@ -1,0 +1,89 @@
+.main-nav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 4rem;
+    padding: 1rem 2rem;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ad2828;
+    font-size: large;
+    font-family: arial;
+}
+
+.book {
+    display: grid;
+}
+
+.details {
+    text-align: right;
+    font-weight: bold;
+    font-size: large;
+    font-family: arial;
+    padding-right: 25px;
+}
+
+.release-date {
+    font-style: italic;
+}
+
+h2 {
+    color: #ad2828;
+    font-size: xx-large;
+}
+
+nav {
+    border-top: 2px solid #ffc800;
+    border-bottom: 2px solid #ffc800;
+}
+
+footer {
+    border-top: 2px solid #ffc800;
+    text-align: center;
+    font-family: arial;
+}
+
+article {
+    border-top: 2px solid #ffc800;
+    margin-top: 90px;
+}
+
+.overview {
+    display: grid;
+    width: 75%;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+img {
+    margin: 0 auto;
+}
+
+.description {
+    font-family: arial;
+}
+
+@media (min-width: 700px) {
+    article {
+        border-top: none;
+        margin-top: none;
+        padding-bottom: 40px;
+    }
+
+    .details {
+        border-right: 2px solid #ffc800;
+        padding-right: 20px;
+    }
+
+    .book {
+        grid-template-columns: 2fr 3fr;
+        grid-auto-flow: column;
+    }
+}
