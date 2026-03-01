@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Character Card">
+    <meta property="og:description" content="Interactive scoring card for character game play.">
+    <meta name="description" content="Interactive scoring card for character game play.">
+    <meta property="og:url" content="haileystahmann.github.io/wdd131/charactercard">
+    <link rel="icon" href="./favicon.ico">
+    <title>Character Card</title>
+    <script src="character.js" defer></script>
+    <link rel="stylesheet" href="character.css"/>
+</head>
+<body>
+    <div class="card">
+        <img class="image" src="https://andejuli.github.io/wdd131/character_card/snortleblat.webp" alt="Image of Snortleblat the Swamp Beast character.">
+        <h1 id="characterName" class="name"></h1>
+        <div class="stats">
+            <p id="characterClass"></p>
+            <p id="characterLevel"></p>
+            <p id="characterHealth"></p>
+        </div>
+        <div class="buttons">
+            <button id="attack-button">Attacked</button>
+            <button id="level-button">Level Up</button>
+        </div>
+    </div>
+</body>
+</html>
