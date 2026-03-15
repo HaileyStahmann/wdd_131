@@ -44,6 +44,7 @@ input {
     border-style: none;
     border-radius: 11px;
     font-size: medium;
+    width: 100%;
 }
 
 hr {

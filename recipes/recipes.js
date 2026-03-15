@@ -280,7 +280,7 @@ const recipes = [
         rating: 4
     }
 ]
-const recipeCard = document.querySelector('.recipe-card');
+const recipesBox = document.querySelector('#recipes');
 const button = document.querySelector('#search-button');
 const searchInput = document.querySelector('#search');
 const randomNum = Math.floor(Math.random() * recipes.length);
@@ -288,7 +288,7 @@ const randomNum = Math.floor(Math.random() * recipes.length);
 // Core functions
 function search() {
     // Reset the render
-    recipeCard.innerHTML = "";
+    recipesBox.innerHTML = "";
 
     // Collect the user search from the html
     let k = searchInput.value;
@@ -329,7 +329,7 @@ function getRecipeTemplate(recipe) {
 
     return `
     <div class="recipe-card">
-        <img src="./images/apple-crisp.jpg" alt="Apple Crisp dessert">
+        <img src="${recipe.image}" alt="${recipe.name}">
 
         <div class="card-text">
         ${tags}
@@ -343,7 +343,7 @@ function getRecipeTemplate(recipe) {
 
 function renderRecipe(recipe) {
     let html = getRecipeTemplate(recipe);
-    recipeCard.innerHTML += html;
+    recipesBox.innerHTML += html;
 }
 
 function handleEnter(event) {
