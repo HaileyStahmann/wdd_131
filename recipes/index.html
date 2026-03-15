@@ -7,6 +7,7 @@
     <meta name="description" content="A digital collection of recipes including images, descriptions, and ratings.">
     <title>Recipe Book</title>
     <link rel="stylesheet" href="recipes.css">
+    <script src="recipes.js" defer></script>
     
     <!-- Open Graph (Facebook, LinkedIn, etc.) -->
     <meta property="og:type" content="website">
@@ -15,7 +16,7 @@
     <meta property="og:url" content="https://github.com/HaileyStahmann/wdd131/recipes">
     <meta property="og:image" content="social-preview-image.png">
 
-    <!-- X Card -->
+    <!-- X Card --> 
     <meta name="twitter:card" content="Social Preview Image">
     <meta name="twitter:title" content="Recipe Book">
     <meta name="twitter:description" content="A digital collection of recipes including images, descriptions, and ratings.">
@@ -40,26 +41,18 @@
             <h1>Recipe Book</h1>
         </div>
         <div class="search-bar">
-            <input type="text" placeholder="Find a recipe">
-            <img src="./images/search.svg" alt="Magnifying glass icon for search bar">
+            <input id="search" type="text" placeholder="Find a recipe">
+            <button id="search-button"> 
+                <img src="./images/search.svg" alt="Magnifying glass icon for search bar">
+            </button>
         </div>
     </header>      
     <hr>           
     <div>
+        <div id="recipes">
+            
+        </div>
         <div class="recipe-card">  
-                <img src="./images/apple-crisp.jpg" alt="Image of a bowl of Apple Crisp dessert paired with a scoop of vanilla ice cream">
-                <div class="card-text">
-                    <button>dessert</button>
-                    <h2>Apple Crisp</h2>
-                    <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star">⭐</span>
-                        <span aria-hidden="true" class="icon-star-empty">☆</span>
-                    </span>
-                    <p class="description">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
-                </div>
         </div>
     </div>   
     <footer>                     
