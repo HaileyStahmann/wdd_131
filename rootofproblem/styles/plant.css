@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=PT+Serif+Caption:ital@0;1&display=swap');
+
+:root {
+    --primary-color: #417048;
+    --secondary-color: #9ab28a;
+    --accent1-color: #11536b;
+    --accent2-color: #5f3620;
+}
+
+body {
+    background-color: beige;
+    font-family: 'PT Serif Caption';
+    font-size: 25px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero img {
+    width: 100%;
+}
+
+.landing-text h1 {
+    font-family: 'DM Serif Display';
+    font-size: 55px;
+    text-align: center;
+}
+
+.landing-text p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#secondary-image img {
+    display: block;
+    border: 15px solid var(--primary-color);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.btn {
+    border: none;
+    background-color: var(--secondary-color);
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.btn-dark {
+    border: none;
+    background-color: var(--primary-color);
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.redirect-buttons {
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: var(--accent2-color);
+    color: var(--accent1-color);
+    text-decoration: none;
+    font-family: 'DM Serif Display';
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+.redirect-buttons a {
+    font-family: 'DM Serif Display';
+    text-decoration: none;
+    color: var(--accent1-color);
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-dark:hover {
+    background-color: var(--accent1-color);
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    justify-items: center;
+    align-content: stretch;
+    align-items: stretch;
+    background-color: var(--primary-color);
+    min-height: 150px;
+}
+
+nav a {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-family: 'DM Serif Display';
+    font-size: 34px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    margin-right: 40%;
+}
+
+nav a:hover {
+    color: var(--accent2-color);
+}
+
+nav a img {
+    height: 100%;
+    justify-self: flex-end;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    background-color: var(--accent2-color);
+    min-height: 100px;
+    width: 100%;
+}
+
+footer p {
+    font-family: 'DM Serif Display';
+    font-size: 28px;
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding-left: 80px;
+}
+
+.landing-page2 h1 {
+    font-family: 'DM Serif Display';
+    font-size: 55px;
+    text-align: center;
+}
+
+.landing-page2 p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+}
+
+.plant-card img {
+    display: block;
+    margin: 0 auto;
+    border: 12px solid var(--primary-color);
+}
+
+.plant-card h1 {
+    text-align: center;
+    font-family: 'DM Serif Display';
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 150%;
+}
+
+.plant-card h2 {
+    text-align: center;
+    font-family: 'DM Serif Display';
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 100%;
+}
+
+.plant-card p {
+    text-align: center;
+    font-family: 'PT Serif Caption';
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.plant-card ul {
+    text-align: center;
+    font-family: 'PT Serif Caption';
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
+.exhibit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.landing-page3 h1 {
+    font-family: 'DM Serif Display';
+    font-size: 55px;
+    text-align: center;
+}
+
+.landing-page3 p {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 8%;
+}
+
+.input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    justify-items: center;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    align-items: center;
+}
+
+.input form {
+    background-color: var(--secondary-color);
+    padding: 4%;
+    border-radius: 2px;
+}
+
+.input form p label {
+    font-family: 'DM Serif Display';
+    font-size: 30px;
+}
+
+.input form p textarea {
+    width: 100%;
+    height: 180px;
+}
+
+.input img {
+    display: block;
+    border: 12px solid var(--primary-color);
+}
+
+.send-button {
+    background-color: var(--accent1-color);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.send-button a {
+    font-family: 'DM Serif Display';
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.closing img {
+    display: block;
+    border: 12px solid var(--primary-color);
+    margin: 0 auto;
+    width: 85%;
+    margin-bottom: 5%;
+}
+
+#feedback {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    text-align: center;
+    font-family: var(--paragraph-font);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: .5em;
+    display: none;
+}
+
+.moveDown {
+    margin-top: 3em;
+}
+
+.dropdown-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.dropdown-content.open {
+    max-height: 100%;
+    padding-bottom: 10%;
+}
+
+.toggle-btn {
+    width: 60%;
+    text-align: center;
+    padding: 2%;
+    font-size: 16px;
+    background-color: #417048;
+    color: #9ab28a;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.arrow {
+    float: right;
+    transition: transform 0.3s;
+    padding-right: 5%;
+}
+
+.toggle-btn.active .arrow {
+    transform: rotate(180deg);
+}

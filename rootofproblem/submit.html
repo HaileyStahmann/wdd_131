@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit a Plant</title>
+    <link rel="stylesheet" href="styles/plant.css" />
+    <script src="form.js" defer></script>
+</head>
+
+<body>
+    <div>
+        <header>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="index.html" id="logo">
+                    <img src="images/weblogotemp.png" alt="Root of the Problem logo" /></a>
+                <a href="gallery.html">Plant Gallery</a>
+                <a href="submit.html">Submit a Plant</a>
+            </nav>
+        </header>
+        <main>
+            <section class="landing-page3">
+                <h1>Submit a Plant</h1>
+                <p>So glad you found us! If you have more questions about your plant or would like to see more plants
+                    added to the gallery, feel free to contact us and see your little sprout on the screen. We love
+                    recommendations, comments, questions and learning so don’t be afraid to spread your knowledge. Just
+                    send a plant recommendation and we will do the rest!</p>
+            </section>
+            <section class="input">
+                <form action="/my-handling-form-page" method="post">
+                    <p>
+                        <label for="name">Name of Plant:</label>
+                        <input type="text" id="name" name="plant_name">
+                    </p>
+
+                    <p>
+                        <label for="description">Brief Description of Plant:</label>
+                        <textarea id="description" name="plant_details"></textarea>
+                    </p>
+
+                    <p id="char-count">0 / 200</p>
+
+                    <button type="submit" class="btn-dark">Submit</button>
+                </form>
+
+                <div id="feedback" style="display:none;"></div>
+
+                <div>
+                    <img src="images/black-ceramic-plant-pot-with-saucer_53876-176846.jpg"
+                        alt="Image of empty plant pot">
+                </div>
+            </section>
+            <div class="closing">
+                <img src="images/beautiful-various-leaves_23-2150114712.jpg" alt="image of assorted leaves upright">
+            </div>
+        </main>
+        <footer>
+            <p>RootoftheProblem</p>
+        </footer>
+    </div>
+</body>
+
+</html>
