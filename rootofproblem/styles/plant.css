@@ -50,35 +50,36 @@ body {
     border-radius: 8px;
     margin-left: 25px;
     margin-right: 25px;
+    text-align: center;
 }
 
 .btn-dark {
     border: none;
-    background-color: var(--primary-color);
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     padding: 14px 28px;
     font-size: 30px;
     cursor: pointer;
-    display: inline-block;
     border-radius: 8px;
-    margin-left: 25px;
-    margin-right: 25px;
+    font-family: 'DM Serif Display';
 }
 
 .redirect-buttons {
-    display: inline-block;
-    padding: 14px 28px;
-    background-color: var(--accent2-color);
-    color: var(--accent1-color);
-    text-decoration: none;
-    font-family: 'DM Serif Display';
-    border-radius: 8px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 128px;
 }
 
 .redirect-buttons a {
     font-family: 'DM Serif Display';
     text-decoration: none;
     color: var(--accent1-color);
+    text-align: center;
 }
 
 .btn:hover {
@@ -86,7 +87,7 @@ body {
 }
 
 .btn-dark:hover {
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
 }
 
 nav {
@@ -291,7 +292,7 @@ footer p {
 }
 
 .toggle-btn {
-    width: 60%;
+    width: 70%;
     text-align: center;
     padding: 2%;
     font-size: 16px;
@@ -300,6 +301,8 @@ footer p {
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 
 .arrow {
